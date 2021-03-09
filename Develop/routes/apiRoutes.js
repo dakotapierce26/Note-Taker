@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 var noteData = JSON.parse(data);
 
-router.get('./api/notes', (req, res) {
+router.get('./api/notes', (req, res) => {
     res.json(noteData);
 });
 
